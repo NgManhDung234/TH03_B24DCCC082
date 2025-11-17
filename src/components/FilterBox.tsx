@@ -1,4 +1,4 @@
-import { Category } from "../types/types";
+import type { Category } from "../types/types";
 
 interface Props {
   onFilter: (category: string) => void;
