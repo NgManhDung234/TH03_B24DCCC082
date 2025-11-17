@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Product, Category } from "../types/types";
+import type { Product, Category } from "../types/types";
 
 interface Props {
   initial?: Product;
