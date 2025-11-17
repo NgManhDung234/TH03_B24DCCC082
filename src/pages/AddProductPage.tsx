@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useProducts } from "../context/ProductContext";
 import ProductForm from "../components/ProductForm";
-import { Product } from "../types/types";
+import type { Product } from "../types/types";
 
 export default function AddProductPage() {
   const { addProduct } = useProducts();
