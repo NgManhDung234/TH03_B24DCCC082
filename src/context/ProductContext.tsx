@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer, ReactNode } from "react";
-import { Product } from "../types/types";
+import type { Product } from "../types/types";
 import { initialProducts } from "../data/initialProducts";
 
 type ActionType =
